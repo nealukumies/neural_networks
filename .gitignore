@@ -1,0 +1,62 @@
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Logs ---
+*.log
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Data directories (raw / intermediate / outputs) ---
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# Alternative generic raw dirs (if you use different naming)
+raw/
+data_raw/
+datasets/
+inputs/
+
+# --- Model artifacts ---
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# --- Notebooks outputs (optional: keep notebooks but strip outputs separately) ---
+# You may want to keep .ipynb but clean outputs via tools like nbstripout
+
+# --- Environment files ---
+.env
+*.env
+
+# --- Misc ---
+*.tmp
+*.bak
+*.swp
