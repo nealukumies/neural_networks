@@ -1,0 +1,7 @@
+# Comparison of FCN and CNN on Ciphar-10 Dataset
+
+In this project, we implemented and compared the performance of a Fully Convolutional Network (FCN) and a Convolutional Neural Network (CNN) on the Ciphar-10 dataset. The Ciphar-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class.
+
+Both models are presented in their own Jupyter notebooks and their optimization processes and final architectures are described in more detail there. The final test accuracies for FCN model was 50,1% and for CNN model was 74,45%. This shows that the CNN model is significantly better at classifying the images in the Ciphar-10 dataset than the FCN model. FCN is not able to recognize the spatial hierarchies in the data as well as CNN. This means that the FCN model is not able to capture the features of the images as well as the CNN model, which is why it performs worse.
+
+The misclassified images for both models are also presented in the notebooks. The FCN model is able to predict some images correctly, but it struggles with more complex images where the object is not clearly distinguishable from the background. The CNN model, on the other hand, is able to predict more of the images correctly, but it still struggles with some images where the object is not clearly distinguishable from the background. Overall, the CNN model is a better choice for image classification tasks.
